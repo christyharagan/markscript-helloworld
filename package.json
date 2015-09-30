@@ -1,0 +1,22 @@
+{
+  "name": "markscript-helloworld",
+  "version": "0.1.0",
+  "description": "A minimal hello-world project for MarkScript",
+  "repository": "christyharagan/markscript-helloworld",
+  "author": {
+    "name": "Christy Haragan",
+    "email": "christy.haragan.github@gmail.com",
+    "url": "https://github.com/christyharagan"
+  },
+  "keywords": [
+    "markscript",
+    "hello world"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "markscript-core": "^0.3.0",
+    "markscript-koa": "^0.3.0",
+    "markscript-project": "^0.3.0",
+    "ml-typescript-definitions": "^0.3.0"
+  }
+}

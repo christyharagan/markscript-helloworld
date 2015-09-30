@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "rootDir": "./src",
+        "target": "es5",
+        "outDir": ".",
+        "moduleResolution": "node"
+    },
+    "formatCodeOptions": {
+        "indentSize": 2,
+        "tabSize": 2
+    },
+    "compileOnSave": false,
+    "filesGlob": [
+        "./markscriptfile.ts",
+        "./src/**/*.ts",
+        "./typings/**/*.d.ts",
+        "./node_modules/ml-typescript-definitions/*.d.ts"
+    ],
+    "files": [
+        "./markscriptfile.ts",
+        "./src/lib/databaseModel.ts",
+        "./src/lib/helloWorldAlert.ts",
+        "./src/lib/helloWorldExtension.ts",
+        "./src/lib/helloWorldModule.ts",
+        "./src/lib/helloWorldTask.ts",
+        "./node_modules/ml-typescript-definitions/client.d.ts",
+        "./node_modules/ml-typescript-definitions/server.d.ts"
+    ]
+}
